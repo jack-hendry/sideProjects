@@ -97,58 +97,10 @@ bot.login()
    
         
  
-
+#commands to run 
 # python -i Tinder_bot1.py
 # bot = TinderBot()
 # bot.login()
 
 
- # def close_match(self):
-
-    #     esc = self.driver.find_element_by_xpath('//*[@id="Tinder"]/body') 
-    #     esc.send_keys(Keys.ESCAPE)
-
-# auto swipe rough work 
-## like = self.hasXpath('//*[@id="Tinder"]/body') 
-            # close = self.hasXpath('//*[@id="modal-manager"]/div/div/div/div/div[3]/a')
-            # print(bool(like)) 
-            # print(bool(close))
-            
-        
-            # if ( like ==True) :
-            #     self.like2()
-                
-            
-            
-            # # new xpath//*[@id="modal-manager-canvas"]/div/div/div[1]/div/div[3]/a
-            # elif ( close ==True):
-            #     self.close_match()
-                
-            
-            # # elif (self.hasXpath('//*[@id="modal-manager"]/div/div/div[3]/button[2]') ==True):
-            # #     match_limit = self.driver.find_element_by_xpath('//*[@id="modal-manager"]/div/div/div[3]/button[2]')
-            # #     match_limit.click()
-                
-
-            # else:
-            #     print('broke')
-            # try:
-            #     self.like2()
-            #     print("Trying self.like")
-            # # try: 
-                
-            # #     print("Excepted")
-
-            # #     #close = self.driver.find_element_by_xpath('//*[@id="modal-manager"]/div/div/div/div/div[3]/a ')
-            # #     #close.click()
-            # #new need testing 
-            # except Exception:
-            #     try:
-                    
-            #         print("Bonk")
-            #         match_limit = self.driver.find_element_by_xpath('//*[@id="modal-manager"]/div/div/div[3]/button[2] ')
-            #         match_limit.click()
-            #         self.driver.close()
-            #     except Exception:
-            #         print('ruff')
-            #         self.close_match()
+ 
